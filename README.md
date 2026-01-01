@@ -12,14 +12,20 @@ images/new-project/
 ├── 02.jpg
 
 2.add entry to index.html
-<a href="project.html?project=new-project" class="project-item">
-  <img src="images/new-project/thumb.jpg">
-  <div>
-    <span class="title">New Project</span><br>
-    <span class="meta">Medium, 2026</span>
-  </div>
-</a>
+a href="project.html?project=new-project" class="project-item">
+  img src="images/new-project/thumb.jpg">
+  div>
+    span class="title">New Project</span><br>
+    span class="meta">Medium, 2026</span>
+  /div>
+/a>
 
 3.add project data to project.html
+"new-project": {
+  title: "New Project",
+  meta: "Medium, Location, 2026",
+  description: "Project description.",
+  images: ["01.jpg", "02.jpg"]
+
 
 4.push
