@@ -79,6 +79,35 @@ a {
   color: #000;
 }
 
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-item {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-item img {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+}
+
+#gallery {
+  margin-top: 2rem;
+}
+
+#gallery img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
 footer {
   margin-top: 4rem;
   font-size: 0.9rem;
