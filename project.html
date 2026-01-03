@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<header>
-  <a href="index.html">← Back</a>
-</header>
-
-<main id="project">
-
-  <h1 id="project-title"></h1>
-  <p id="project-meta"></p>
-  <p id="project-description"></p>
-
-  <div id="gallery"></div>
-
-</main>
-
 <script>
 const projects = {
-  "New-Project": {
-  title: "Hyper Vulgaris",
-  meta: "Oil on Canvas, 40 x 80cm, 2026",
-  description: "Project description.",
-  images: ["hyper-vulgaris.jpg"]
-},
+  "new-project": {
+    title: "Hyper Vulgaris",
+    meta: "Oil on Canvas, 40 × 80 cm, 2026",
+    description: "Project description.",
+    images: ["hyper-vulgaris.jpg"]
+  },
+
   "project-1": {
     title: "Project Title",
     meta: "Medium, Location, 2026",
     description: "Short paragraph describing the project.",
     images: ["01.jpg", "02.jpg"]
   },
+
   "project-2": {
     title: "Another Project",
     meta: "Residency, 2025",
     description: "Description text here.",
     images: ["01.jpg"]
-  },
-  
+  }
 };
 
 const params = new URLSearchParams(window.location.search);
@@ -63,6 +40,3 @@ if (project) {
   });
 }
 </script>
-
-</body>
-</html>
