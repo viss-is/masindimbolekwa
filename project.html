@@ -20,23 +20,5 @@ const projects = {
     description: "Description text here.",
     images: ["01.jpg"]
   }
-};
 
-const params = new URLSearchParams(window.location.search);
-const key = params.get("project");
-const project = projects[key];
-
-if (project) {
-  document.getElementById("project-title").textContent = project.title;
-  document.getElementById("project-meta").textContent = project.meta;
-  document.getElementById("project-description").textContent = project.description;
-
-  const gallery = document.getElementById("gallery");
-
-  project.images.forEach(img => {
-    const image = document.createElement("img");
-    image.src = `images/${key}/${img}`;
-    gallery.appendChild(image);
-  });
-}
 </script>
