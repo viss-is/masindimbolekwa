@@ -5,20 +5,29 @@ const projects = {
     meta: "Oil on Canvas, 40 × 80 cm, 2026",
     description: "Project description.",
     images: ["hyper-vulgaris.JPG"]
-  },
-
-  "project-1": {
-    title: "Project Title",
-    meta: "Medium, Location, 2026",
-    description: "Short paragraph describing the project.",
-    images: ["01.jpg", "02.jpg"]
-  },
-
-  "project-2": {
-    title: "Another Project",
-    meta: "Residency, 2025",
-    description: "Description text here.",
-    images: ["01.jpg"]
   }
+};
 
+const params = new URLSearchParams(window.location.search);
+const key = params.get("project");
+const project = projects[key];
+
+if (!project) {
+  document.getElementById("project-title").textContent = "Project not found";
+  console.error("No project found for key:", key);
+} else {
+  document.getElementById("project-title").textContent = project.title;
+  document.getElementById("project-meta").textContent = project.meta;
+  document.getElementById("project-description").textContent = project.description;
+
+  const gallery = document.getElementById("gallery");
+
+  project.images.forEach(img => {
+    const image = document.createElement("img");
+    image.loading = "lazy";
+    image.src = `images/${key}/${img}`;
+    image.alt = project.title;
+    gallery.appendChild(image);
+  });
+}
 </script>
