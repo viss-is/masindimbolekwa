@@ -100,7 +100,6 @@ a {
 }
 .work-image {
   display: block;
-  margin-bottom: 3rem;
 }
 
 .work-image img {
@@ -109,6 +108,7 @@ a {
   display: block;
 }
 
+
 #work h2 {
   margin-top: 4rem;
   margin-bottom: 1.5rem;
@@ -116,8 +116,14 @@ a {
 
 .work-image {
   display: block;
-  margin-bottom: 3rem;
   transition: opacity 0.2s ease;
+}
+
+/* WORK GRID */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 
