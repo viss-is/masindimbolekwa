@@ -130,12 +130,43 @@ footer {
 
 /* -------- MOBILE -------- */
 @media (max-width: 700px) {
-  .grid {
-    grid-template-columns: 1fr;
+
+  body {
+    font-size: 14px;
+  }
+
+  .wrapper {
+    margin: 20px auto;
   }
 
   .site-name {
     font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  nav a {
+    margin-right: 14px;
+  }
+
+  .show-list {
+    margin: 30px 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .caption {
+    font-size: 11px;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  footer {
+    margin-top: 60px;
   }
 }
 
