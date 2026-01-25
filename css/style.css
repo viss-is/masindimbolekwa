@@ -7,9 +7,9 @@
 
 /* -------- TYPE -------- */
 body {
-  font-family: Baskerville, "Libre Baskerville", "Times New Roman", serif;
-  font-size: 15px;
-  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
   color: #000;
   background: #fff;
 }
@@ -17,13 +17,25 @@ body {
 /* -------- LAYOUT -------- */
 .wrapper {
   max-width: 1100px;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 0 20px;
+}
+
+/* -------- HEADER -------- */
+header {
+  margin-bottom: 25px;
+}
+
+.site-name {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 
 /* -------- NAV -------- */
 nav {
-  margin-bottom: 50px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
 }
 
 nav a {
@@ -38,12 +50,12 @@ nav a.active {
 
 /* -------- SHOW LIST -------- */
 .show-list {
-  margin-bottom: 60px;
+  margin: 40px 0;
 }
 
 .show-list li {
   list-style: none;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .show-list a {
@@ -59,7 +71,11 @@ nav a.active {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 25px;
+}
+
+.grid a {
+  display: block;
 }
 
 .grid img {
@@ -71,12 +87,28 @@ nav a.active {
 /* -------- TEXT PAGES -------- */
 .text {
   max-width: 650px;
+  margin-top: 40px;
+}
+
+/* -------- ARTWORK PAGE -------- */
+.artwork {
+  max-width: 800px;
+  margin-top: 40px;
+}
+
+.artwork img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.artwork-meta {
+  font-size: 12px;
 }
 
 /* -------- FOOTER -------- */
 footer {
   margin-top: 80px;
-  font-size: 12px;
+  font-size: 11px;
   color: #888;
 }
 
@@ -85,4 +117,9 @@ footer {
   .grid {
     grid-template-columns: 1fr;
   }
+
+  .site-name {
+    font-size: 18px;
+  }
 }
+
