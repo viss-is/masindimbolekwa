@@ -1,0 +1,88 @@
+/* -------- RESET -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------- TYPE -------- */
+body {
+  font-family: Baskerville, "Libre Baskerville", "Times New Roman", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
+}
+
+/* -------- LAYOUT -------- */
+.wrapper {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* -------- NAV -------- */
+nav {
+  margin-bottom: 50px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+/* -------- SHOW LIST -------- */
+.show-list {
+  margin-bottom: 60px;
+}
+
+.show-list li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.show-list a {
+  text-decoration: none;
+  color: #000;
+}
+
+.show-list a:hover {
+  text-decoration: underline;
+}
+
+/* -------- IMAGE GRID -------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* -------- TEXT PAGES -------- */
+.text {
+  max-width: 650px;
+}
+
+/* -------- FOOTER -------- */
+footer {
+  margin-top: 80px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* -------- MOBILE -------- */
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
