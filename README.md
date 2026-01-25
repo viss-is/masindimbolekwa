@@ -1,14 +1,14 @@
-# Personal CV Website
+# Personal Artist CV Website
 
-Static portfolio website hosted on Netlify.
+Static portfolio website hosted with Github Pages.
 Built with HTML, CSS, and minimal JavaScript.
 
-how to add new project (monthly workflow)
+add new shows and artworks throuhg index.html
 
 1. create folder:
-images/new-project/
-├── thumb.jpg
-├── 01.jpg
-├── 02.jpg
+images/
+├── work1.jpg
+├── work2.jpg
+├── work3.jpg
 
 view https://viss-is.github.io/masindimbolekwa/
