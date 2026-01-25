@@ -1,121 +1,57 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Masindi Mbolekwa</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-  <h1>Masindi Mbolekwa</h1>
-  <p class="subtitle">Artist</p>
+<div class="wrapper">
 
   <nav>
-    <button class="tab active" data-tab="work">Work</button>
-    <button class="tab" data-tab="about">About</button>
-    <button class="tab" data-tab="press">Press</button>
+    <a href="index.html" class="active">work</a>
+    <a href="about.html">about</a>
+    <a href="resume.html">resume</a>
   </nav>
-</header>
 
-<main>
-
-  <!-- WORK -->
-  <section id="work" class="tab-content active">
-
-    <!-- YEAR -->
-    <h2>2025</h2>
-
-    <div class="work-grid">
-
-  <a href="project.html?project=new-project" class="work-image">
-    <img src="images/new-project/thumb-hyper-vulgaris.JPG" alt="">
-  </a>
-
-  <a href="project.html?project=project-1" class="work-image">
-    <img src="images/project-1/01.JPG" alt="">
-  </a>
-
-  <a href="project.html?project=project-2" class="work-image">
-    <img src="images/project-2/01.JPG" alt="">
-  </a>
-
-</div>
-
-    <!-- YEAR -->
-    <h2>2024</h2>
-
-    <div class="work-grid">
-
-  <a href="project.html?project=project-6" class="work-image">
-    <img src="images/new-project/06.JPG" alt="">
-  </a>
-
-  <a href="project.html?project=project-4" class="work-image">
-    <img src="images/project-1/01.JPG" alt="">
-  </a>
-
-  <a href="project.html?project=project-5" class="work-image">
-    <img src="images/project-2/01.JPG" alt="">
-  </a>
-
-</div>
-</a>
-
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="tab-content">
-
-    <p>
-     Masindi Mbolekwa (b.2002) is a visual artist from Johannesburg. His practice is concerned with pic
-     torial space and the ways in which it is utilized in the creation of a dialogue between metaphysical/
-     abstract and material/representational realms in the canon of painting. It is a poetically loaded engage
-     ment with personal and cultural history and the ontology of natal alienation within a postcolony through 
-     the consideration of forms of earth as spiritual, and the use of abstract form, colour contrast, bodily 
-     gesture and archived knowledges as a language to communicate narrative and myth as well as facili
-     tate emotive experience.  
-     Mbolekwa holds an Honours in Fine Art from the University of The Witwatersrand (2023). His first 
-     Solo presentation “Feast of Flesh and Prayer” was held at Ellis House Gallery in May 2025. He 
-     has participated in various group exhibitions including ‘Screen-In-Time’ (2022), ‘Siyabuka’ (2023), 
-     ‘Crossroads: Tsila Tse Pedi’ (2024), ‘Figurative Frontiers’ (2024), and ‘Tswela 
-     Pele’ (2025).
-     In the year 2024 Mbolekwa was featured in Wanted Magazine’s annual ‘Young and Vital’ artists list, 
-     shorlisted for the Cssirer Welz Prize, and was the recipient of a senior residency with the artist collec
-     tive Blvck Block.
-    </p>
-
-    <p>
-      Contact:
-      <a href="masindinafisa@gmail.com">masindinafisa@gmail.com</a><br>
-      Instagram:
-      <a href="https://www.instagram.com/masindi.nafisa" target="_blank" rel="noopener">
-        @masindi.nafisa
-      </a>
-    </p>
-
-  </section>
-
-  <!-- PRESS -->
-  <section id="press" class="tab-content">
-
-    <ul class="entries">
+  <!-- SELECTED SHOWS -->
+  <section class="show-list">
+    <ul>
       <li>
-        <a href="https://example.com/article" target="_blank" rel="noopener">
-          Article Title
+        <a href="work/show-1.html">
+          Salve(ed) / An Arrow for Big Other, 2024
+        </a>
+      </li>
+      <li>
+        <a href="work/show-2.html">
+          Title of Exhibition, Venue, 2023
+        </a>
+      </li>
+      <li>
+        <a href="work/show-3.html">
+          Title of Exhibition, Venue, 2022
         </a>
       </li>
     </ul>
-
   </section>
 
-</main>
+  <!-- WORK IMAGES -->
+  <section class="grid">
+    <img src="images/work1.jpg" alt="">
+    <img src="images/work2.jpg" alt="">
+    <img src="images/work3.jpg" alt="">
+    <img src="images/work1.jpg" alt="">
+    <img src="images/work2.jpg" alt="">
+    <img src="images/work3.jpg" alt="">
+  </section>
 
-<footer>
-  <p>© Ikhona Masindi Nafisa Mbolekwa 2026</p>
-</footer>
+  <footer>
+    © Masindi Mbolekwa · Johannesburg<br>
+    “a short quote if you want”
+  </footer>
 
-<script src="js/tabs.js"></script>
+</div>
+
 </body>
 </html>
