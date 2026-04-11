@@ -122,6 +122,15 @@ nav a.active {
   font-size: 12px;
 }
 
+/* -------- SHOW PAGE -------- */
+#gallery img {
+  aspect-ratio: auto;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* -------- FOOTER -------- */
 footer {
   margin-top: 80px;
