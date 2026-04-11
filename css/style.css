@@ -125,7 +125,10 @@ nav a.active {
 /* -------- SHOW PAGE -------- */
 #gallery img {
   aspect-ratio: auto !important;
+  object-fit: contain !important;
+  width: 100%;
   height: auto !important;
+  display: block;
 }
 
 /* -------- FOOTER -------- */
