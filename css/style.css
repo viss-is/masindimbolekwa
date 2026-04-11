@@ -21,12 +21,13 @@ body {
 }
 
 .text a {
-  color: #000;
-  text-decoration: none;
+  color: #b30000;
+  text-decoration: underline;
+  transition: color 0.2s ease;
 }
 
-.text a:hover {
-  text-decoration: underline;
+a:hover {
+  color: #ff0000;
 }
 
 
