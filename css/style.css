@@ -123,11 +123,12 @@ nav a.active {
 }
 
 /* -------- SHOW PAGE -------- */
-#gallery img {
-  aspect-ratio: auto !important;
-  object-fit: contain !important;
+.artwork img {
   width: 100%;
-  height: auto !important;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  margin-bottom: 15px;
   display: block;
 }
 
