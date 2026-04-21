@@ -10,4 +10,4 @@ add new shows and artworks throuhg index.html
 3. shows is metadata and title is in index, refers back to work/'show-title'
 
 github subdomain: https://viss-is.github.io/masindimbolekwa/
-cloudflare domain masindimbolekwa.com expires on April 21 2027
+cloudflare domain https://masindimbolekwa.com expires on April 21 2027
