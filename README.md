@@ -5,10 +5,9 @@ Built with HTML, CSS, and minimal JavaScript.
 
 add new shows and artworks throuhg index.html
 
-1. create folder:
-images/
-├── work1.jpg
-├── work2.jpg
-├── work3.jpg
+1. artworks in index, refer back to images/artwork-name and metadata is in work/'artwork-title'
+2. pictures in index grid are compressed down, "full" images uploaded as seperate, both in images/
+3. shows is metadata and title is in index, refers back to work/'show-title'
 
-view https://viss-is.github.io/masindimbolekwa/
+github subdomain: https://viss-is.github.io/masindimbolekwa/
+cloudflare domain masindimbolekwa.com expires on April 21 2027
